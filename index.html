@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>21120292</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+        <style>
+            #about .bi {
+                font-size: 5rem;
+            }
+            .carousel li{
+                list-style: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header class="container-fluid bg-primary">
+            <nav
+                class="container navbar navbar-expand-sm navbar-dark"
+            >
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <i class="bi bi-bootstrap fs-3 align-middle"></i>
+                        Start Bootstrap
+                    </a>
+                    <button
+                        class="navbar-toggler d-lg-none"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavId"
+                        aria-controls="collapsibleNavId"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavId">
+                        <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#" aria-current="page"
+                                    >Home
+                                    <span class="visually-hidden">(current)</span></a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    id="dropdownId"
+                                    data-bs-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                    >Dropdown</a
+                                >
+                                <div
+                                    class="dropdown-menu"
+                                    aria-labelledby="dropdownId"
+                                >
+                                    <a class="dropdown-item" href="#"
+                                        >Action 1</a
+                                    >
+                                    <a class="dropdown-item" href="#"
+                                        >Action 2</a
+                                    >
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+        </header>
+        <main>
+            <div class="container py-3">
+                <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                    <ul class="carousel-indicators">
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="0"
+                            class="active"
+                            aria-current="true"
+                            aria-label="First slide"
+                        ></li>
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="1"
+                            aria-label="Second slide"
+                        ></li>
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="2"
+                            aria-label="Third slide"
+                        ></li>
+                    </ul>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img
+                                src="images/banner1.jpg"
+                                class="w-100 d-block"
+                                alt="First slide"
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="images/banner2.jpg"
+                                class="w-100 d-block"
+                                alt="Second slide"
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="images/banner3.jpg"
+                                class="w-100 d-block"
+                                alt="Third slide"
+                            />
+                        </div>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselId"
+                        data-bs-slide="prev"
+                    >
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselId"
+                        data-bs-slide="next"
+                    >
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="carousel-caption">
+                    <button class="btn btn-primary">See more</button>
+                </div>
+            </div>
+            <div class="container py-3">
+                <div class="p-5 mb-4 bg-light rounded-3">
+                    <div class="container-fluid py-5">
+                        <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+                        <p class="col-md-8 fs-4">
+                            Using a series of utilities, you can create this jumbotron, just
+                            like the one in previous versions of Bootstrap. Check out the
+                            examples below for how you can remix and restyle it to your liking.
+                        </p>
+                        <hr>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, itaque.</p>
+                        <button class="btn btn-primary btn-lg" type="button">
+                            Example button
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container py-3" id="about">
+                <div class="row">
+                    <div class="col">
+                        <div class="card h-100 text-center p-3 bg-success text-white">
+                            <i class="bi bi-file-earmark-person"></i>
+                            <div class="card-body">
+                                <h4 class="card-title">About</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, dignissimos voluptatibus. Quidem sint quos vitae modi provident? Quae, mollitia deserunt.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 text-center p-3 bg-danger text-white">
+                            <i class="bi bi-shop"></i>
+                            <div class="card-body">
+                                <h4 class="card-title">Working place</h4>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae possimus officiis exercitationem eaque? Voluptatem natus esse tempore inventore quisquam accusamus, quod voluptates. Expedita commodi deserunt cupiditate, reprehenderit consequatur facere maiores eius eos quaerat quia doloremque optio labore, rem voluptatum totam, recusandae quasi mollitia assumenda? Impedit, a enim soluta ex aperiam fugit doloribus porro eveniet veritatis. Illum temporibus incidunt qui aliquid molestias cum harum repellat vero voluptas at adipisci sed laboriosam quam error, odit ipsam omnis autem eius, cupiditate ab nemo aut nesciunt repellendus? Eaque quod deleniti ad rerum voluptas similique quia sunt quasi odio molestias debitis, aliquid fugiat atque id!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 text-center p-3 bg-warning text-white">
+                            <i class="bi bi-credit-card-2-front"></i>
+                            <div class="card-body">
+                                <h4 class="card-title">Payment</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, molestias?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container py-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="text-center">Working Information</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col align-self-center">
+                                <img src="images/banner1.jpg" alt="" class="img-thumbnail">
+                            </div>
+                            <div class="col">
+                                <h3>Special Treatment</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint commodi aliquam error quibusdam officiis distinctio, quisquam voluptas laboriosam dolor tempore. Ut necessitatibus magni natus at officiis placeat ad corrupti in omnis ullam nisi assumenda architecto dolorum fugiat vitae ratione praesentium ab blanditiis nostrum doloremque distinctio, eaque vero laborum? Ipsa corrupti eveniet neque consectetur nobis consequatur voluptate voluptatum tempora ab minus, similique explicabo modi, ad architecto quibusdam! Odit quae eveniet exercitationem assumenda laboriosam, minima facilis explicabo, architecto totam maxime debitis? Iusto molestias suscipit maiores aliquid magni, quaerat facilis earum voluptatum excepturi, provident, officia rerum in quasi non eius ratione ullam deserunt.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-primary">Go somewhere</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container py-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="text-center">Image Gallery</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-3"><img src="images/products/1.jpg" alt="" class="img-thumbnail h-100 w-100"></div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-3"><img src="images/products/2.jpg" alt="" class="img-thumbnail h-100 w-100"></div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-3"><img src="images/products/3.jpg" alt="" class="img-thumbnail h-100 w-100"></div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-3"><img src="images/products/4.jpg" alt="" class="img-thumbnail h-100 w-100"></div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-3"><img src="images/products/5.jpg" alt="" class="img-thumbnail h-100 w-100"></div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-3"><img src="images/products/6.jpg" alt="" class="img-thumbnail h-100 w-100"></div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-3"><img src="images/products/7.jpg" alt="" class="img-thumbnail h-100 w-100"></div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-3"><img src="images/products/8.jpg" alt="" class="img-thumbnail h-100 w-100"></div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-3"><img src="images/products/9.jpg" alt="" class="img-thumbnail h-100 w-100"></div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-3"><img src="images/products/10.jpg" alt="" class="img-thumbnail h-100 w-100"></div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-3"><img src="images/products/11.jpg" alt="" class="img-thumbnail h-100 w-100"></div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-3"><img src="images/products/12.jpg" alt="" class="img-thumbnail h-100 w-100"></div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-3"><img src="images/products/13.jpg" alt="" class="img-thumbnail h-100 w-100"></div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-3"><img src="images/products/14.jpg" alt="" class="img-thumbnail h-100 w-100"></div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-3"><img src="images/products/15.jpg" alt="" class="img-thumbnail h-100 w-100"></div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="container-fluid bg-primary text-white">
+                <div class="container py-3">
+                    <div class="row">
+                        <div class="col">
+                            <h2>Quick Links</h2>
+                            <nav class="navbar navbar-expand">
+                                <ul class="nav navbar-nav flex-column navbar-dark">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#" aria-current="page"
+                                            >Nav 1 <span class="visually-hidden">(current)</span></a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Nav 2</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col">
+                            <h2>Newletters</h2>
+                            <form action="">
+                                 <div class="mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        name=""
+                                        id=""
+                                        aria-describedby="helpId"
+                                        placeholder=""
+                                    />
+                                 </div>
+                                 <div class="mb-3">
+                                    <label for="" class="form-label">Email</label>
+                                    <input
+                                        type="email"
+                                        class="form-control"
+                                        name=""
+                                        id=""
+                                        aria-describedby="emailHelpId"
+                                        placeholder="abc@mail.com"
+                                    />
+                                 </div>
+                                 <button class="btn btn-outline-light border">
+                                    <i class="bi bi-envelope fs-4 align-middle me-2 py-3"></i>
+                                    Subcribe
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid bg-primary text-center bg-opacity-75 text-white">Copyright &copy; 2024</div>
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
